@@ -14,6 +14,8 @@
 		36389B03253B5E8B00DC018C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36389B02253B5E8B00DC018C /* Assets.xcassets */; };
 		36389B06253B5E8B00DC018C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36389B04253B5E8B00DC018C /* LaunchScreen.storyboard */; };
 		36389B09253B5E8B00DC018C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36389B08253B5E8B00DC018C /* main.m */; };
+		36389B10253B5F0200DC018C /* Lippman_Cartoon_320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36389B0F253B5F0100DC018C /* Lippman_Cartoon_320.jpg */; };
+		36389B12253B9AE800DC018C /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 36389B11253B9AE800DC018C /* test.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		36389B05253B5E8B00DC018C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36389B07253B5E8B00DC018C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36389B08253B5E8B00DC018C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36389B0F253B5F0100DC018C /* Lippman_Cartoon_320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lippman_Cartoon_320.jpg; sourceTree = "<group>"; };
+		36389B11253B9AE800DC018C /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				36389AFC253B5E8A00DC018C /* Main.storyboard */,
 				36389B02253B5E8B00DC018C /* Assets.xcassets */,
 				36389B04253B5E8B00DC018C /* LaunchScreen.storyboard */,
+				36389B0F253B5F0100DC018C /* Lippman_Cartoon_320.jpg */,
+				36389B11253B9AE800DC018C /* test.html */,
 				36389B07253B5E8B00DC018C /* Info.plist */,
 				36389B08253B5E8B00DC018C /* main.m */,
 				36389AFF253B5E8A00DC018C /* DataDetectorIOS.xcdatamodeld */,
@@ -131,8 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36389B10253B5F0200DC018C /* Lippman_Cartoon_320.jpg in Resources */,
 				36389B06253B5E8B00DC018C /* LaunchScreen.storyboard in Resources */,
 				36389B03253B5E8B00DC018C /* Assets.xcassets in Resources */,
+				36389B12253B9AE800DC018C /* test.html in Resources */,
 				36389AFE253B5E8A00DC018C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

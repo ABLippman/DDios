@@ -10,6 +10,14 @@
 
 @interface ViewController : UIViewController
 
+//  @property (weak, nonatomic) IBOutlet UIWebView *wkView;  // IOS 11
+@property (weak, nonatomic) IBOutlet UIWebView *wkView;
+@property (unsafe_unretained) IBOutlet UITextView *testView;
+
+- (IBAction)makeEditable:(id)sender;
+- (IBAction)makeNotEditable:(id)sender;
+- (IBAction)loadLocal:(id)sender;
+- (IBAction)loadML:(id)sender;
 
 @end
 
