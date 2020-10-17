@@ -18,12 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lippman_Cartoon_320.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aVY-UG-e9t">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lippman_Cartoon_320.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aVY-UG-e9t">
                                 <rect key="frame" x="39" y="152" width="242" height="288"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aVY-UG-e9t" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="132" id="AV6-NF-CR4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aVY-UG-e9t" secondAttribute="bottom" constant="128" id="DOZ-k6-Re6"/>
+                            <constraint firstItem="aVY-UG-e9t" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IdV-24-ivX"/>
+                            <constraint firstItem="aVY-UG-e9t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="y62-o8-OdE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

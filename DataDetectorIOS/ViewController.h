@@ -13,6 +13,7 @@
 //  @property (weak, nonatomic) IBOutlet UIWebView *wkView;  // IOS 11
 @property (weak, nonatomic) IBOutlet UIWebView *wkView;
 @property (unsafe_unretained) IBOutlet UITextView *testView;
+@property (weak, nonatomic) IBOutlet UITextView *behindView;
 
 - (IBAction)makeEditable:(id)sender;
 - (IBAction)makeNotEditable:(id)sender;

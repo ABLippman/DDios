@@ -41,6 +41,7 @@
     //    [_testView setDataDetectorTypes:UIDataDetectorTypeAll];  //  Linkfies URLs, otherwise phone only
     [_testView setText:@"This it the initial text, 6179011065."];
     [self makeNotEditable:self];
+    [_behindView setText:@"Old Web View here"];
 }
 
 - (IBAction)makeEditable:(id)sender {
